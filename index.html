@@ -3,34 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portofolio Saya</title>
+  <title>Portfolio Saya</title>
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <header>
-    <h1>Halo, saya Zayy</h1>
-    <p> Web Developer 🚀</p>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Zayy</div>
+    <ul class="menu">
+      <li><a href="#about">Tentang</a></li>
+      <li><a href="#projects">Proyek</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero / Intro -->
+  <header class="hero">
+    <h1>Halo, saya Zayy 👋</h1>
+    <p>Web Developer | Belajar HTML, CSS, & JavaScript</p>
   </header>
 
-  <section class="about">
+  <!-- Tentang Saya -->
+  <section id="about">
     <h2>Tentang Saya</h2>
     <p>Saya sedang belajar web development menggunakan HTML, CSS, dan JavaScript.</p>
   </section>
 
-  <section class="projects">
+  <!-- Proyek -->
+  <section id="projects" class="gallery">
     <h2>Proyek Saya</h2>
-    <div class="card">
-      <h3>Website Pertama</h3>
-      <p>Website ini dibuat dengan HTML & CSS dasar.</p>
-    </div>
-    <div class="card">
-      <h3>Proyek Kedua</h3>
-      <p>Proyek dengan tambahan JavaScript interaktif.</p>
-    </div>
+    <div class="box">Website Pertama</div>
+    <div class="box">Website Kedua</div>
+    <div class="box">Landing Page</div>
   </section>
 
-  <footer>
-    <p>Hubungi saya di <a href="https://github.com/yulast1157-ui" target="_blank">GitHub</a></p>
+  <!-- Footer -->
+  <footer id="contact">
+    <p>Hubungi saya di <a href="https://github.com/username">GitHub</a></p>
   </footer>
 </body>
 </html>
