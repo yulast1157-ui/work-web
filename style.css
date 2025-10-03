@@ -1,23 +1,6 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: pink;
+.box {
+  background-color: lightblue;
+  border: 2px solid darkblue;
   margin: 20px;
-  padding: 0;
-}
-
-h1 {
-  color: darkblue;
-}
-
-h2 {
-  color: darkred;
-}
-
-a {
-  color: green;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+  padding: 15px;
 }
